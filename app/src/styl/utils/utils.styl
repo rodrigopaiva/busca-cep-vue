@@ -1,0 +1,31 @@
+// ==========================================================================
+// utils vars and functions
+// ==========================================================================
+
+$black 	    = #000
+$white 	    = #fff
+$graylight  = #f2f2f2
+$graymedium = #dddddd
+$graydark   = #444444
+
+$base_img = '../img'
+$base_fonts = '../fonts'
+
+font_mixin(font, size, color)
+	font-family font
+	font-size size
+	color color
+
+sprite_extras()
+	display block
+	overflow hidden
+	text-indent -9999em
+	background-repeat no-repeat
+
+hide()
+	visibility hidden
+	opacity 0
+
+show()
+	visibility visible
+	opacity 1

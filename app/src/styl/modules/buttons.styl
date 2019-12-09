@@ -1,0 +1,21 @@
+/* === BOTOES === */
+.btn
+  display inline-block
+  cursor pointer
+  background transparent
+  border 1px solid transparent
+  transition .5s ease-out
+  outline none
+  font_mixin(Arial, 1.2em, #000)
+  letter-spacing 1.2px
+  padding 14px 20px
+
+
+.btn-full-gray-dark
+  color #fff
+  background-color $graydark
+  border-color transparent
+  &:hover
+    color $black
+    background-color transparent
+    border-color $graymedium
